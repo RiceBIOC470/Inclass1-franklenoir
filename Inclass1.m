@@ -1,4 +1,5 @@
-% Walter Frank Lenoir InClass1
+% AW: Looks good. 0.99/1 see a couple of comments below.  
+%Walter Frank Lenoir InClass1
 
 % InClass1: some simple excerises to get started with MATLAB. Please complete by
 % the second class. Answer questions in comments and return assignment via
@@ -34,6 +35,9 @@ x2b = [x; x];
 %two strings (a twice) together. x2 and x2b are two cell arrays with the
 %same contents, however x2 has one row and two columns, and x2b has two
 %rows and one column.
+
+%AW: This is basically correct, but be carefully with terminology - these aren't cell arrays but regular arrays. 
+% cell arrays would use {} curly brackets. -0.01.
 
 %% = vs ==, isequal
 % Walter Frank Lenoir
@@ -117,6 +121,8 @@ fliplr(oneToTen)
 % oneToTen, the columns are inverted and turned into rows. 
 
 flip(oneToTen)
+%AW: This works. see also flipud. 
+
 % This will reverse the order of the rows. 
 
 %% matrices, . operator
@@ -173,4 +179,4 @@ rand_nums(1,:)
 rand_nums(:,[1 3 5])
 %Cell values for column 1, 3, 5
 
-
+%AW: again not correct to call these cells, but otherwise ok. 
